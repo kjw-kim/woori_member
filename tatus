@@ -1,0 +1,48 @@
+[33mcommit ab42917688b070776d35dfe150abce9265937952[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: kjw <openetkjw@naver.com>
+Date:   Wed May 1 16:01:10 2024 +0900
+
+    six commit
+
+[33mcommit 637d9a62abe1c172c8ae67f5b036b0193e6c5b0d[m
+Author: kjw <openetkjw@naver.com>
+Date:   Wed May 1 13:48:33 2024 +0900
+
+    five commit
+
+[33mcommit 55fe590e32132887e10fb0379776eada4c0d7c41[m
+Author: kjw <openetkjw@naver.com>
+Date:   Wed May 1 12:12:33 2024 +0900
+
+    four commit
+
+[33mcommit 2fcd7ed51ceb1bb6cc5917cf840115f24a7ca467[m
+Merge: 00171ea f0d05e3
+Author: kjw <openetkjw@naver.com>
+Date:   Wed May 1 12:02:29 2024 +0900
+
+    Merge branch 'main' of https://github.com/kjw-kim/woori_member
+
+[33mcommit 00171eae378d286ad48442d09c85a226d3617739[m
+Author: kjw <openetkjw@naver.com>
+Date:   Wed May 1 11:56:41 2024 +0900
+
+    third commit
+
+[33mcommit 48ec1b1d2335c74463cb824a440a5f09e4ce6d6d[m
+Author: kjw <openetkjw@naver.com>
+Date:   Wed May 1 11:07:05 2024 +0900
+
+    second commit
+
+[33mcommit f0d05e3b4df36cade53347845fa627807edb1428[m
+Author: kjw-kim <55682882+kjw-kim@users.noreply.github.com>
+Date:   Wed May 1 11:05:42 2024 +0900
+
+    Initial commit
+
+[33mcommit 656dc813c2703904e951dca8fe87abd65d3d2f4b[m
+Author: kjw <openetkjw@naver.com>
+Date:   Wed May 1 10:55:01 2024 +0900
+
+    first commit
