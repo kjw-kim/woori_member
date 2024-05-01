@@ -31,7 +31,21 @@
     padding: 0 20px 0 0;
 }
 
-.header_member ul li {
-    display: inline-block;
+.header_content ul li img {
+    padding-right: 2px;
+    padding-top: 3px;
+
 }
 
+.header_member ul li {
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.header_member ul li a {
+    display: inline-block;
+    padding: 3px 20px 3px 20px 
+    
+}
