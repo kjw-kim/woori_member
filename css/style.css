@@ -99,12 +99,22 @@
 }
 
 .header_content ul li {
+    position: relative;
     display: inline-block;
-    padding: 0 20px 0 0;
+    margin : 0 10px 0 0;
+}
+.header_content ul li.e1::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top:12px;
+    width: 17px;
+    height: 17px;
+    background: url(../images/psa1.png) center center no-repeat;
 }
 
-.header_content ul li img {
-    
+.header_content ul li a {
+    margin: 0 0px 0 23px;
 }
 
 .header_member ul li {
