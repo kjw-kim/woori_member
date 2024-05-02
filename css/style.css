@@ -24,6 +24,11 @@
     background-color:aqua;
 }
 
+#sliderType {
+    background: #ddd;
+    height: 200px;
+}
+
 #asideType {
     width: 30%;
     height: 780px;
@@ -90,44 +95,95 @@
     align-items: center;
     justify-content: space-between;
     margin-left: 3.75rem;
-    margin-right: 12rem;
+    margin-right: 5rem;
+    box-sizing: border-box;
 }
 
 .header_content {
     height: 2.5rem;
     line-height: 2.5rem;
+    margin-bottom: 10px;
 }
 
-.header_content ul li {
+.header_content li {
     position: relative;
     display: inline-block;
-    margin : 0 10px 0 0;
+    margin : 0 5px 0 0;
 }
-.header_content ul li.e1::before {
+.header_content li.e1::before {
     content: '';
     position: absolute;
     left: 0px;
-    top:12px;
+    top:10px;
     width: 17px;
     height: 17px;
     background: url(../images/psa1.png) center center no-repeat;
 }
 
-.header_content ul li a {
-    margin: 0 0px 0 23px;
+.header_content li.e2::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top:10px;
+    width: 17px;
+    height: 17px;
+    background: url(../images/book.png) center center no-repeat;
 }
 
-.header_member ul li {
+.header_content li.e3::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top:10px;
+    width: 17px;
+    height: 17px;
+    background: url(../images/psa1.png) center center no-repeat;
+}
+
+.header_content li.e4::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top:10px;
+    width: 17px;
+    height: 17px;
+    background: url(../images/psa1.png) center center no-repeat;
+}
+
+.header_content li a {
+    color: #595757;
+    font-weight: 700;
+    padding: 5px 10px 5px 20px;
+    box-sizing: border-box;
+}
+
+.header_content li a:hover {
+    color: #999;
+}
+
+
+.header_member li {
     display: inline-block;
-    margin-right: 10px;
-    border: 1px solid #000;
+}
+
+.header_member li a {
+    border: 1px solid #ddd;
     border-radius: 10px;
+    padding: 5px 20px 5px 20px; 
+    
 }
 
-.header_member ul li a {
-    display: inline-block;
-    padding: 3px 20px 3px 20px 
+.header_member li a:hover {
+    border: 1px solid #999;
+    border-radius: 10px;
+    color: #999;
+    padding: 5px 20px 5px 20px; 
     
+}
+
+.header_logo a img {
+    width: 200px;
+    height: 45px;
 }
 
 .nav {
@@ -139,4 +195,32 @@
 .gnb ul li {
     display: inline-block;
     margin-right: 20px;
+}
+
+.slider_wrap {
+}
+
+.slider_inner {
+
+}
+
+.slider {
+
+}
+
+.slider_img {
+    background-image: url("../images/slide01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 580px;
+}
+
+.slider_arrow {
+
+}
+
+.slider_dot {
+
 }
