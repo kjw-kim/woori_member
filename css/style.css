@@ -33,10 +33,9 @@
     background-color: #ddd;
 }
 
-#sectionType {
+#contentType {
     width: 100%;
     height: 300px;
-    background-color: #777;
 }
 
 #footer {
@@ -111,11 +110,11 @@
 .header_content li.e1::before {
     content: '';
     position: absolute;
-    left: -3px;
-    top:10px;
-    width: 190px;
-    height: 220px;
-    background: url(../images/qs.png) center center no-repeat;
+    left: -4px;
+    top:4px;
+    width: 19px;
+    height: 22px;
+    background: url(../images/an.png) center center no-repeat;
 }
 
 .header_content li.e2::before {
@@ -132,8 +131,8 @@
     content: '';
     position: absolute;
     left: -3px;
-    top:10px;
-    width: 17px;
+    top:9px;
+    width: 19px;
     height: 19px;
     background: url(../images/psa1.png) center center no-repeat;
 }
@@ -142,7 +141,7 @@
     content: '';
     position: absolute;
     left: -3px;
-    top:10px;
+    top:11px;
     width: 17px;
     height: 17px;
     background: url(../images/cs.png) center center no-repeat;
@@ -152,10 +151,10 @@
     content: '';
     position: absolute;
     left: -3px;
-    top:10px;
-    width: 17px;
-    height: 17px;
-    background: url(../images/event1.png) center center no-repeat;
+    top:7px;
+    width: 22px;
+    height: 22px;
+    background: url(../images/event.png) center center no-repeat;
 }
 .header_content li a {
     color: #595757;
