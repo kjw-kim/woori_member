@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/meffect.css" />
+</head>
+<body class="mouse bg">
+
+    <!-- main -->
+    <main id="mouseCont">
+        <div class="cursor"></div>
+
+        <div class="mouseCont">
+            <p>To climb <span class="style1">steep</span> hills requires <span class="style2">slow</span> pace at <span class="style3">first.</span></p>
+            <p><span class="style4">험준한</span> 산을 <span class="style5">오르기</span> 위해선 먼저 <span class="style6">천천히</span> 걸어야 한다.</p>
+        </div>
+    </main>
+    <!-- //main -->
+
+    <!-- info -->
+    <div class="info">
+        <h1><a href="index.html">Mouse Effect01 - Javascript</a></h1>
+        <p>마우스 이펙트 - 따라다니기</p>
+    </div>
+
+    <div class="info right">
+        <ul>
+            <li>clintX : <span class="clientX">0</span></li>
+            <li>clintY : <span class="clientY">0</span></li>
+
+            <li>offsetX : <span class="offsetX">0</span></li>
+            <li>offsetY : <span class="offsetY">0</span></li>
+
+            <li>pageX : <span class="pageX">0</span></li>
+            <li>pageY : <span class="pageY">0</span></li>
+
+            <li>screenX : <span class="screenX">0</span></li>
+            <li>screenY : <span class="screenY">0</span></li>
+        </ul>
+    </div>
+
+    <script>
+        window.addEventListener("mousemove", function(event) {
+            document.querySelector(".clientX").innerHTML = event.clientX
+            document.querySelector(".clientY").innerHTML = event.clientY
+            document.querySelector(".offsetX").innerHTML = event.offsetX
+            document.querySelector(".offsetY").innerHTML = event.offsetY
+            document.querySelector(".pageX").innerHTML = event.pagesetX
+            document.querySelector(".pageY").innerHTML = event.pageY
+            document.querySelector(".screenX").innerHTML = event.screenX
+            document.querySelector(".screenY").innerHTML = event.screenY
+                })
+    </script>
+    
+</body>
+</html>
