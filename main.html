@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.css" />
     
 </head>
 <body>
@@ -51,21 +52,28 @@
             </div>
         </nav>
         <section id="sliderType" class="slider_wrap">
-            <div class="slider_inner">
-                <div class="slider">
-                    <div class="slider_img"></div>
-                    <div class="slider_arrow">
-                        <a href="/" class="left"><span></span></a>
-                        <a href="/" class="right"><span></span></a>
-                    </div>
-                    <div class="slider_dot"></div>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide ss1"></div>
+                  <div class="swiper-slide ss2"></div>
+                  <div class="swiper-slide ss3"></div>
+                  <div class="swiper-slide ss4"></div>
+                  <div class="swiper-slide ss5"></div>
                 </div>
-            </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
         </section>
         <article id = "articleType" class="article_wrap">
             <h1>제품주문<em>바로가기</em></h1>
             <ul>
-                <li class="ord1"><a href="">수입지명함</a></li>
+                <li><a href="" data-on-src="./images/bks.png" data-off-src="./images/bk1.png">수입지명함</a></li>
                 <li class="ord2"><a href="">스티카</a></li>
                 <li class="ord3"><a href="">수입지명함</a></li>
                 <li class="ord4"><a href="">봉투</a></li>
@@ -196,6 +204,28 @@
             
         </section>
         <footer id = "footer"></footer>
-        </div>
+    </div>
+
+
+<script src="woori_member/js/jquery.min_1.12.4.js"></script>
+<script src="woori_member/js/modernizr-custom.js"></script>
+<script src="woori_member/js/ie-checker.js"></script>
+<script src="woori_member/js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper',{
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 5000,
+            },
+        });
+</script>
+
 </body>
 </html>

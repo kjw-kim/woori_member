@@ -51,7 +51,22 @@
             document.querySelector(".pageY").innerHTML = event.pageY
             document.querySelector(".screenX").innerHTML = event.screenX
             document.querySelector(".screenY").innerHTML = event.screenY
-                })
+                });
+
+                window.addEventListener("mousemove", function(event) {
+                    // document.querySelector(".cursor").style.left = event.clientX -25 + "px";
+                    // document.querySelector(".cursor").style.top = event.clientY -25 + "px";
+
+                    let x = event.clientX - 25 + "px";
+                    let y = event.clientY - 25 + "px";
+
+                    document.querySelector(".cursor").style.cssText = "left:" + x + "; top" + y;
+
+                    document.querySelector(".contents em").addEventListener("mouseenter", function() {
+                        document.querySelector(".cursor").
+                    })
+                });
+                
     </script>
     
 </body>
