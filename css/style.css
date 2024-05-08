@@ -270,12 +270,11 @@ margin-bottom: 15px;
 .article_wrap .importcard {
     position: relative;
     display: inline-block;
-    
 }
 
 .article_wrap .importcard img {
     width: 80px;
-    height: 90px;
+    height: 85px;
 }
 
 .importcard .img-top {
@@ -308,7 +307,13 @@ margin-bottom: 15px;
     justify-content: space-between;
 }
 
+.content_wrap {
+    width: 100%;
+}
 
+.cont_content li {
+    display: inline-block;
+}
 
 
 
