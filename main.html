@@ -32,7 +32,11 @@
                     </div>
                     
                 </div>
-                <div class="header_logo"><a href = ""><img src="../images/logo1.png"  alt=""></a></div>
+                <div class="header_logo">
+                    <a href="" aria-label="logo1">
+                        <img src="../images/logo1.png"  alt="">
+                    </a>
+                </div>
             </div>
         </header>
         <nav id = "nav" class="nav">
@@ -53,22 +57,22 @@
         </nav>
         <section id="sliderType" class="slider_wrap">
             <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide ss1"></div>
-                  <div class="swiper-slide ss2"></div>
-                  <div class="swiper-slide ss3"></div>
-                  <div class="swiper-slide ss4"></div>
-                  <div class="swiper-slide ss5"></div>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-              
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-              </div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide ss1"></div>
+                <div class="swiper-slide ss2"></div>
+                <div class="swiper-slide ss3"></div>
+                <div class="swiper-slide ss4"></div>
+                <div class="swiper-slide ss5"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            </div>
         </section>
         <article id = "articleType" class="article_wrap">
             <h1>제품주문<em>바로가기</em></h1>
@@ -159,53 +163,65 @@
             <div class="eventSlide">선물</div>
             <div class="notice_type">
                 <div class="notice_title"><a href="">공지사항</a></div>
-                <ul class="notice_list">
-                    <li>
-                        <a href = "">
-                            <div class="nt_categ">세일</div>
-                            <div class="nt_titl">수입지명함 최저가 (베스트용지 10종)</div>
-                            <!-- 새글일때 -->
-                            <span></span>
-                            <div class="nt_date">2024-05-06</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href = "">
-                            <div class="nt_categ">이벤트</div>
-                            <div class="nt_titl">가정의 달 프로모션 20% 할인중</div>
-                            <!-- 새글일때 -->
-                            <span></span>
-                            <div class="nt_date">2024-05-01</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href = "">
-                            <div class="nt_categ">이벤트</div>
-                            <div class="nt_titl">친구소개 (너도 좋고 나도 좋고 쿠폰받자)</div>
-                            <!-- 새글일때 -->
-                            <span></span>
-                            <div class="nt_date">2024-04-26</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href = "">
-                            <div class="nt_categ">안내</div>
-                            <div class="nt_titl">합판전단 0.5R~ 소량주문</div>
-                            <!-- 새글일때 -->
-                            <span></span>
-                            <div class="nt_date">2024-04-16</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href = "">
-                            <div class="nt_categ">세일</div>
-                            <div class="nt_titl">규격봉투 최저가 이벤트 연장</div>
-                            <!-- 새글일때 -->
-                            <span></span>
-                            <div class="nt_date">2024-04-14</div>
-                        </a>
-                    </li>
-                </ul>
+                <div class="notice_list">
+                    <ul>
+                        <li>
+                            <a href = "">
+                                <div class="list_part">
+                                    <div class="nt_sale">세일</div>
+                                    <div class="nt_titl">수입지명함 최저가 (베스트용지 10종)</div>
+                                    <!-- 새글일때 -->
+                                    <span></span>
+                                    <div class="nt_date">2024-05-06</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "">
+                                <div class="list_part">
+                                    <div class="nt_event">이벤트</div>
+                                    <div class="nt_titl">가정의 달 프로모션 20% 할인중</div>
+                                    <!-- 새글일때 -->
+                                    <span></span>
+                                    <div class="nt_date">2024-05-01</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "">
+                                <div class="list_part">
+                                    <div class="nt_event">이벤트</div>
+                                    <div class="nt_titl">친구소개 (너도 좋고 나도 좋고 쿠폰받자)</div>
+                                    <!-- 새글일때 -->
+                                    <span></span>
+                                    <div class="nt_date">2024-04-26</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "">
+                                <div class="list_part">
+                                    <div class="nt_guide">안내</div>
+                                    <div class="nt_titl">합판전단 0.5R~ 소량주문</div>
+                                    <!-- 새글일때 -->
+                                    <span></span>
+                                    <div class="nt_date">2024-04-16</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "">
+                                <div class="list_part">
+                                    <div class="nt_sale">세일</div>
+                                    <div class="nt_titl">규격봉투 최저가 이벤트 연장</div>
+                                    <!-- 새글일때 -->
+                                    <span></span>
+                                    <div class="nt_date">2024-04-14</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section id="contentType" class="content_wrap">
@@ -214,8 +230,8 @@
                 <div class="cont_content">
                     <ul class="cont_list">
                         <li><a href = "" target="_blank">
-                                <div class="img_wrap">
-                                    <img src = "images/00.png" alt="">
+                                <div class="img_scale">
+                                    <img src = "../images/img_editors03.png" alt="">
                                     <div class="imgtxt_wrap">
                                         <div class="img_desc"></div>
                                         <div class="img_title">부채</div>
@@ -225,49 +241,49 @@
                             </a>
                         </li>
                         <li><a href = "" target="_blank">
-                            <div class="img_wrap">
-                                <img src = "images/00.png" alt="">
-                                <div class="imgtxt_wrap">
-                                    <div class="img_desc"></div>
-                                    <div class="img_title">홀로그램 스티커</div>
+                                <div class="img_scale">
+                                    <img src = "../images/thumb27.png" alt="">
+                                    <div class="imgtxt_wrap">
+                                        <div class="img_desc"></div>
+                                        <div class="img_title">홀로그램스티커</div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="">3가지 홀로그램 코팅</div>
-                        </a>
-                    </li>
-                    <li><a href = "" target="_blank">
-                        <div class="img_wrap">
-                            <img src = "images/00.png" alt="">
-                            <div class="imgtxt_wrap">
-                                <div class="img_desc"></div>
-                                <div class="img_title">홀로그램 포토카드</div>
-                            </div>
-                        </div>
-                        <div class="">내가 만드는 굿즈</div>
-                    </a>
-                </li>
-                <li><a href = "" target="_blank">
-                    <div class="img_wrap">
-                        <img src = "images/00.png" alt="">
-                        <div class="imgtxt_wrap">
-                            <div class="img_desc"></div>
-                            <div class="img_title">스크래치 복권</div>
-                        </div>
-                    </div>
-                    <div class="">지금 최저가 가격인하중</div>
-                </a>
-            </li>
-            <li><a href = "" target="_blank">
-                <div class="img_wrap">
-                    <img src = "images/00.png" alt="">
-                    <div class="imgtxt_wrap">
-                        <div class="img_desc"></div>
-                        <div class="img_title">영화 포스터</div>
-                    </div>
-                </div>
-                <div class="">어느 공간이나 잘어울리는</div>
-            </a>
-        </li>
+                                <div class="">3가지 홀로그램 코팅</div>
+                            </a>
+                        </li>
+                        <li><a href = "" target="_blank">
+                                <div class="img_scale">
+                                    <img src = "../images/img_editors03.png" alt="">
+                                    <div class="imgtxt_wrap">
+                                        <div class="img_desc"></div>
+                                        <div class="img_title">홀로그램 포토카드/div>
+                                    </div>
+                                </div>
+                                <div class="">내가 만드는 굿즈</div>
+                            </a>
+                        </li>
+                        <li><a href = "" target="_blank">
+                                <div class="img_scale">
+                                    <img src = "images/00.png" alt="">
+                                    <div class="imgtxt_wrap">
+                                        <div class="img_desc"></div>
+                                        <div class="img_title">스크래치 복권</div>
+                                    </div>
+                                </div>
+                                <div class="">지금 최저가 가격인하중!</div>
+                            </a>
+                        </li>
+                        <li><a href = "" target="_blank">
+                                <div class="img_scale">
+                                    <img src = "images/00.png" alt="">
+                                    <div class="imgtxt_wrap">
+                                        <div class="img_desc"></div>
+                                        <div class="img_title">영화포스터</div>
+                                    </div>
+                                </div>
+                                <div class="">어느 공건이나 잘 어울리는...</div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
