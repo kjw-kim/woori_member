@@ -385,6 +385,7 @@ margin-bottom: 15px;
 
 .cont_list li {
     display: inline-block;
+    margin-right: 20px;
     
 }
 
@@ -392,22 +393,72 @@ margin-bottom: 15px;
     position: absolute;
     left: 10px;
     top: 20px;
-    width: 172px;
-    height: 112px;
+    width: 214px;
+    height: 198px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #595757, #c9caca);
     overflow: hidden;
-    background: #999;
 }
 
 .img_scale .img_desc1 {
     display: inline-block;
-    width: 100%;
-    height: 100%;
+    margin-top: 10px;
+    width: 214px;
+    height: 150px;
     background: url("../images/buche.png") no-repeat center center/cover;
     transition: 0.7s;
 }
 
+.img_scale .img_desc2 {
+    display: inline-block;
+    margin-top: 10px;
+    width: 214px;
+    height: 150px;
+    background: url("../images/childcard.png") no-repeat center center/cover;
+    transition: 0.7s;
+}
+
+.img_scale .img_desc3 {
+    display: inline-block;
+    margin-top: 10px;
+    width: 214px;
+    height: 150px;
+    background: url("../images/childcard.png") no-repeat center center/cover;
+    transition: 0.7s;
+}
+
+.img_scale .img_desc4 {
+    display: inline-block;
+    margin-top: 10px;
+    width: 214px;
+    height: 150px;
+    background: url("../images/childcard.png") no-repeat center center/cover;
+    transition: 0.7s;
+}
+
+.img_scale .img_desc5 {
+    display: inline-block;
+    margin-top: 10px;
+    width: 214px;
+    height: 150px;
+    background: url("../images/childcard.png") no-repeat center center/cover;
+    transition: 0.7s;
+}
+
+.img_scale .img_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 10px;
+
+}
+
 .img_scale:hover .img_desc1 {
-    transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+.img_scale:hover .img_desc2 {
+    transform: scale(1.2);
 }
 
 .cont_list li {
@@ -418,12 +469,13 @@ margin-bottom: 15px;
 
 .img_scale > span {
     position: absolute;
-    top: 130px;
-    z-index: 100;
-    
+    top: 160px;
 }
 
 .cont_list .list_contxt {
     display: inline-block;
-    margin-top: 180px;
+    margin-top: 225px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 22px;
 }
