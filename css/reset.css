@@ -6,6 +6,21 @@
     
 }
 
+html, body, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+button {
+    border: 0;
+    background: none;
+}
+
 a {
     list-style: none;
     text-decoration: none;
