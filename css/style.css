@@ -303,33 +303,6 @@ margin-bottom: 15px;
     color: #595757;
 }
 
-.eventSlider {
-    position: relative;
-    width: 500px;
-    overflow: hidden;
-}
-
-.eventSlider ul {
-    width: 2500px;
-    font-size: 0;
-}
-
-.eventSlider ul li {
-    display: inline-block;
-}
-
-.eventSlider button.prev {
-    position: absolute;
-    left: 0;
-    top:85px
-}
-
-.eventSlider button.next {
-    position: absolute;
-    right: 0;
-    top:85px
-}
-
 .notice_type {
     width: 50%;
 }
@@ -368,6 +341,7 @@ margin-bottom: 15px;
 
 .content_wrap {
     width: 100%;
+    margin-top: 10px;
 }
 
 .cont_content li {
@@ -380,13 +354,15 @@ margin-bottom: 15px;
 }
 
 .cont_list {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0;
 }
 
 .cont_list li {
-    display: inline-block;
-    margin-right: 20px;
-    
+    position: relative;
+    display: block;
 }
 
 .img_scale {
@@ -400,45 +376,40 @@ margin-bottom: 15px;
     overflow: hidden;
 }
 
-.img_scale .img_desc1 {
-    display: inline-block;
-    margin-top: 10px;
+.img_scale > .img_desc1 {
+    margin-top: 15px;
     width: 214px;
     height: 150px;
     background: url("../images/buche.png") no-repeat center center/cover;
     transition: 0.7s;
 }
 
-.img_scale .img_desc2 {
-    display: inline-block;
-    margin-top: 10px;
+.img_scale > .img_desc2 {
+    margin-top: 15px;
     width: 214px;
     height: 150px;
     background: url("../images/childcard.png") no-repeat center center/cover;
     transition: 0.7s;
 }
 
-.img_scale .img_desc3 {
-    display: inline-block;
-    margin-top: 10px;
+.img_scale > .img_desc3 {
+    margin-top: 15px;
     width: 214px;
     height: 150px;
-    background: url("../images/childcard.png") no-repeat center center/cover;
+    background: url("../images/buche.png") no-repeat center center/cover;
     transition: 0.7s;
 }
 
-.img_scale .img_desc4 {
-    display: inline-block;
-    margin-top: 10px;
+.img_scale > .img_desc4 {
+    margin-top: 15px;
     width: 214px;
     height: 150px;
-    background: url("../images/childcard.png") no-repeat center center/cover;
+    background: url("../images/buche.png") no-repeat center center/cover;
     transition: 0.7s;
 }
 
-.img_scale .img_desc5 {
-    display: inline-block;
-    margin-top: 10px;
+.img_scale > .img_desc5 {
+    margin-top: 15px;
     width: 214px;
     height: 150px;
     background: url("../images/childcard.png") no-repeat center center/cover;
@@ -458,6 +429,18 @@ margin-bottom: 15px;
 }
 
 .img_scale:hover .img_desc2 {
+    transform: scale(1.2);
+}
+
+.img_scale:hover .img_desc3 {
+    transform: scale(1.2);
+}
+
+.img_scale:hover .img_desc4 {
+    transform: scale(1.2);
+}
+
+.img_scale:hover .img_desc5 {
     transform: scale(1.2);
 }
 

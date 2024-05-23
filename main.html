@@ -165,17 +165,16 @@
             </ul>
         </article>
         <section id = "noticeType" class="notice_wrap">
-            <div class="eventSlider">
-                <button id="inprev" type="button" class="prev" ><img src="images/prev01.png" alt = "" /></button>
-                <ul>
-                    <li><img src="images/sb01.png" alt=""></li>
-                    <li><img src="images/sb02.png" alt=""></li>
-                    <li><img src="images/sb03.png" alt=""></li>
-                    <li><img src="images/sb04.png" alt=""></li>
-                    <li><img src="images/sb05.png" alt=""></li>
+            <div class="Slider">
+                <ul class="slide_list">
+                    <li class="slide_item"><img class="slide_image" src="images/sb01.png" alt=""></li>
+                    <!-- <li class="slide_item"><img class="slide_image" src="images/sb02.png" alt=""></li>
+                    <li class="slide_item"><img class="slide_image" src="images/sb03.png" alt=""></li>
+                    <li class="slide_item"><img class="slide_image" src="images/sb04.png" alt=""></li>
+                    <li class="slide_item"><img class="slide_image" src="images/sb05.png" alt=""></li> -->
                 </ul>
-                <button id="outnext" type="button" class="next" ><img src="images/next01.png" alt = "" /></button>
-
+                <div class="buttons"></div>
+                <div class="pagination"></div>
             </div>
             <div class="notice_type">
                 <div class="notice_title"><a href="">공지사항</a></div>
@@ -254,37 +253,37 @@
                             </a>
                         </li>
                         <li><a href = "" target="_blank">
-                            <div class="img_scale">
-                                <span class="img_title">홀로그램 스티커</span>
-                                <div class="img_desc2"></div>
-                            </div>
-                            <div class="list_contxt">3가지 홀로그램 코팅!</div>
-                        </a>
-                    </li>
-                    <li><a href = "" target="_blank">
-                        <div class="img_scale">
-                            <span class="img_title">부채</span>
-                            <div class="img_desc3"></div>
-                        </div>
-                        <div class="list_contxt">맞춤용 판촉용으로 GOOD!</div>
-                    </a>
-                </li>
-                <li><a href = "" target="_blank">
-                    <div class="img_scale">
-                        <span class="img_title">부채</span>
-                        <div class="img_desc4"></div>
-                    </div>
-                    <div class="list_contxt">맞춤용 판촉용으로 GOOD!</div>
-                </a>
-            </li>
-            <li><a href = "" target="_blank">
-                <div class="img_scale">
-                    <span class="img_title">부채</span>
-                    <div class="img_desc5"></div>
-                </div>
-                <div class="list_contxt">맞춤용 판촉용으로 GOOD!</div>
-            </a>
-        </li>
+                                <div class="img_scale">
+                                    <span class="img_title">부채</span>
+                                    <div class="img_desc2"></div>
+                                </div>
+                                <div class="list_contxt">맞춤용 판촉용으로 GOOD!</div>
+                            </a>
+                        </li>
+                        <li><a href = "" target="_blank">
+                                <div class="img_scale">
+                                    <span class="img_title">부채</span>
+                                    <div class="img_desc3"></div>
+                                </div>
+                                <div class="list_contxt">맞춤용 판촉용으로 GOOD!</div>
+                            </a>
+                        </li>
+                        <li><a href = "" target="_blank">
+                                <div class="img_scale">
+                                    <span class="img_title">부채</span>
+                                    <div class="img_desc4"></div>
+                                </div>
+                                <div class="list_contxt">맞춤용 판촉용으로 GOOD!</div>
+                            </a>
+                        </li>
+                        <li><a href = "" target="_blank">
+                                <div class="img_scale">
+                                    <span class="img_title">부채</span>
+                                    <div class="img_desc5"></div>
+                                </div>
+                                <div class="list_contxt">맞춤용 판촉용으로 GOOD!</div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -298,7 +297,6 @@
 <script src="js/modernizr-custom.js"></script>
 <script src="js/ie-checker.js"></script>
 <script src="js/swiper.min.js"></script>
-
 
 <script>
     var mySwiper = new Swiper('.swiper-container',{
